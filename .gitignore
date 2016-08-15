@@ -1,3 +1,7 @@
+# Custom
+.tmp
+deploy
+
 
 # Created by https://www.gitignore.io/api/node,windows,osx
 
