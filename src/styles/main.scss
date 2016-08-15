@@ -1,0 +1,79 @@
+//Base
+@import "base/reset";
+@import "base/variables";
+@import "base/mixins";
+@import "base/responsive";
+@import "base/utilities";
+@import "base/base";
+@import "base/grid";
+* {
+	cursor:url(/media/assets/images/cursor.png);
+}
+html,body {
+	position: relative;
+	height: 100%;
+}
+body {
+	cursor:url(/media/assets/images/cursor.png),auto;
+}
+.trump-half {
+	width: 50%;
+	height: 100%;
+	float:left;
+	position: relative;
+	cursor:url(/media/assets/images/cursor.png),auto;
+
+	&.trump-half__trump {
+		background: #0a113d;
+		background: url(/media/assets/images/trump.jpg) no-repeat top center local; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
+.trump-logo--stacked {
+	position: absolute;
+	bottom: 45px;
+	left: 45px;
+}
+.trump-logo {
+	text-align: center;
+	margin: 40px 0;
+}
+
+.trump-content {
+	margin: 0 auto;
+	padding: 40px 0;
+	max-width: 440px;
+
+	text-align: center;
+}
+.trump-dropdown {
+	margin-bottom: 40px;
+}
+.trump-intro {
+	font-family: serif;
+	font-size: 24px;
+	padding: 0 0 40px;
+	margin: 0 0 40px;
+	position: relative;
+
+	.trump-generate {
+		display: block;
+		font-weight: bold;
+	}
+	
+	&:after {
+		content: "";
+		display: block;
+		width: 90px;
+		height: 1px;
+		background: #000;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		margin-left: -45px;
+	}
+}

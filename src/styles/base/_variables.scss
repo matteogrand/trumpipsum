@@ -1,0 +1,56 @@
+
+//  Breakpoints
+$screen-xs: 0px;
+$screen-sm: 480px;
+$screen-md: 760px;
+$screen-lg: 980px;
+$screen-xl: 1200px;
+$screen-xxl: 1300px;
+
+$screen-burger: $screen-lg; // point at which the burger menu is shown/hidden
+
+$screen-landscape-phone-max: $screen-md - 1;
+
+// max (try not to use these)
+$screen-xs-max: $screen-sm - 1px;
+$screen-sm-max: $screen-md - 1px;
+$screen-md-max: $screen-lg - 1px;
+$screen-lg-max: $screen-xl - 1px;
+$screen-xl-max: $screen-xxl - 1px;
+
+// Fonts
+$font-family-brand: Helvetica, sans-serif;
+$font-family-brand-ext: Helvetica, sans-serif;
+
+// Z-Index
+$z-service-bar: 800;
+$z-panel-nav: 700;
+$z-lightbox-bg: 1000;
+$z-lightbox-container: 1001;
+
+// Service Bar
+$service-bar-height--xs: 40px;
+$service-bar-height--sm: 66px;
+
+//  Colours
+$color-red: #cc0033;
+$background-color: #fff;
+$brand-grey-light: #f2f4f3;
+$brand-grey: #e4e4e4;
+$brand-grey-dark: #b0b6b8;
+$brand-grey-mid: #cccccc;
+$brand-grey-text: #444444;
+
+$brand-red: #aa142d;
+$brand-red-dark: darken($brand-red, 10);
+
+$dark-grey-translucent: rgba(31, 31, 31, .85);
+$grey-text: #d1d1d1;
+$grey-title: #595959;
+$grey-fineprint: #666666;
+$grey-border: #d8dbdc;
+
+$grey-body-col: #6d7579;
+
+// Misc
+$skew-offset: 10%;
